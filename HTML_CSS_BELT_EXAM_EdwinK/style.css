@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    width: 100%;
+}
+body {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#leaf {
+    background-color: lightseagreen;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+#searchbox {
+    width: 600px;
+    height: 50px;
+    border-radius: 25px;
+}
+#header button {
+    height: 30px;
+    width: 40px;
+    overflow: hidden;
+    border: none;
+    background-color: white;
+}
+#cart {
+    height: 30px;
+    width: 40px;
+}
+#search {
+    height: 25px;
+    margin-left: -110px;
+}
+#header p {
+    font-size: large;
+}
+#nav {
+    margin-top: 30px;
+}
+#topnav {
+    width: 100%;
+    list-style: none;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: black solid 5px;
+    padding-bottom: 10px;
+}
+#slogan p {
+    font-size: 300%;
+    text-align: center;
+margin: 20px;}
+#col {
+    display: flex;
+}
+#col1 {
+    flex: 1;
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 40px;
+    font-size: xx-large;
+    height: 300px;
+    color: white;
+}
+#col2 {
+    flex: 1;
+    height: 300px;
+    margin-right: 20px;
+}
+#col2 img {
+    height: 300px;
+    width: 100%;
+}
+
+#col3 {
+    flex: 1;
+    height: 300px;
+    overflow: hidden;
+}
+#col3 img {
+    width: 100%;
+    height: 180px;
+}
+#arrow1 {
+    margin-left: 20px;
+    margin-bottom: -25px;
+}
+#topbox {
+    margin-bottom: 20px;
+}
+#botbox {
+    height: 100px;
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    color: white;
+}
+#botbox img {
+    width: 35px;
+    height: 40px;
+    margin-left: 20px;
+}
+#lastdiv {
+    background-color: rgb(155, 240, 233);
+    height: 300px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+#plantpics {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;margin-top: 20px;
+    margin-bottom: 20px;
+}
+#plantpics img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.plantnames {
+    width: 100%;
+    list-style: none;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#popup {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 2px black;
+    padding: 20px;
+    margin-top: -70px;
+    background-color: white;
+}
+#popup button {
+    background-color: lightseagreen;
+    width: 120px;
+    height: 30px;
+    color: white;
+    box-shadow: black 5px 5px;
+}
